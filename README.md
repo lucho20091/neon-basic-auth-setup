@@ -36,6 +36,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
 first run npx prisma generate
+then for prisma update model use npx prisma migrate dev --name add-new-model
 for docs:
 prisma = https://www.prisma.io/docs/getting-started/quickstart-sqlite
 neon = https://console.neon.tech/
